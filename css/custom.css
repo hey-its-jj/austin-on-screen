@@ -1,0 +1,347 @@
+/* -------- START HEADERIMG STUFF -------- */
+
+div.headerimg {
+  display: block;
+}
+
+.pumpkin {
+  width: 100%;
+}
+
+/* -------- END HEADERIMG STUFF -------- */
+
+
+
+
+/* -------- START NAV STUFF -------- */
+.bg-primary {
+  background-color:  #ffcd47 !important;
+}
+/* Above changes the nav color to yellow. Yes, you need the "important" part in there.*/
+
+.navbar-dark .navbar-nav .nav-link {
+  color:   #ad3217;
+}
+
+/* Above changes the link color to, like, blood red.*/
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+  color: white;
+}
+
+/* Above changes hover links to white.*/
+
+.navbar-dark .navbar-brand {
+  color: #ad3217;
+}
+
+.navbar-dark .navbar-toggler {
+  color: white;
+  border-color: white;
+}
+
+.current {
+  color:  #c4830b !important;
+}
+
+.aos {
+  max-width: 110px;
+}
+/* -------- END NAV STUFF -------- */
+
+
+
+
+/* -------- START MISC STUFF -------- */
+
+footer {
+    padding: 15px;
+    text-align: center;
+    margin-top: ;
+}
+
+section.resume-section {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  max-width: 75rem;
+}
+
+/* Above:  I don't actually need the section CSS, but I'm leaving it just in case.*/
+
+div.resume-section {
+  display: block;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: auto;
+  max-width: 75rem;
+}
+
+/* Above: I changed the sections to divs because there was a TON of annoying, immutable blank space that only disappeared once I changed the tag. I tried everything. I think sections just have wack spacing properties. */
+
+
+.altsection {
+  display: block;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  background-color: #892523;
+}
+
+.altsection, ::before, ::after {
+  box-sizing: content-box;
+}
+
+/* Above:  the "altsection" stuff is for changing the color of the "movies" section on the home page. I had to finagle with the box-sizing because it was interfering.*/
+
+.adjust {
+  margin-right: 70px;
+}
+
+p.lead {
+
+  text-indent: 30px;
+
+}
+
+.trek {
+  max-width: 65%;
+  display: block;
+  margin: auto;
+  height: 500px;
+  margin-bottom: 50px;
+}
+
+/* Above:  This is the interactive map on the home page. */
+
+.arrows {
+  text-align: center;
+}
+
+.nextprev {
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Above: This is the "next" and "previous" buttons at the bottom of every page. */
+
+.smalltxt {
+  font-size: 10px;
+}
+
+/* -------- END MISC STUFF -------- */
+
+
+
+
+/* -------- START HEADING AND SUBHEADING STUFF -------- */
+
+h1.mb-0 {
+  margin-bottom: 0 !important;
+  text-align: center;
+}
+
+h2.mb-5 {
+  margin-bottom: 1rem !important;
+  text-align: center;
+}
+
+h2.mb-5.movieheading {
+  margin-bottom: 2rem !important;
+  text-align: center;
+}
+
+/* Above:  I left the "h2" tag and "mb-5" class in there because I didn't want to forget what it was before I changed it. */
+
+.subheading {
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.videoheader {
+  margin-bottom: 25px !important;
+}
+
+/* -------- END HEADING AND SUBHEADING STUFF -------- */
+
+
+
+
+/* -------- START CONTENT IN "MOVIES" SECTION -------- */
+
+.flex-grow-1 {
+  flex-grow: 1 !important;
+  text-align: center;
+}
+
+.h3shrink {
+    display: none;
+  }
+
+/* Start button stuff */
+.butt {
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+  display: block;
+  margin: auto;
+  border: none;
+  background-color: transparent;
+}
+
+.buttimg {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.btn-primary:hover {
+  color: #000;
+  background-color: #af2a1f;
+  border-color: #000;
+}
+
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+  color: #000;
+  background-color:  #af2a1f;
+}
+
+.btn-check:focus + .btn, .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem transparent;
+}
+/* End button stuff */
+
+.bust {
+  display: block;
+  margin: auto;
+  max-width: 350px;
+}
+
+/* Above: This is for the little pictures of me above each video embed. */
+
+.introvid {
+  display: block;
+  margin: auto;
+  max-width: 560px;
+  width: 100%;
+  margin-bottom: 55px;
+}
+
+/* -------- END CONTENT IN "MOVIES" SECTION -------- */
+
+
+
+
+/* -------- CHANGING BODY COLORS -------- */
+
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: white;
+  text-align: var(--bs-body-text-align);
+  background-color: #383b4a;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  line-height: 1.2;
+  color: white;
+}
+
+.text-primary {
+  --bs-text-opacity: 1;
+  color: #ffcd47 !important;
+}
+
+/* -------- END CHANGING BODY COLORS -------- */
+
+
+
+
+/* -------- START CAROUSEL STUFF -------- */
+.carousel {
+  text-align: center;
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 55px;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.7);
+  max-width: 400px;
+  margin: auto;
+  padding: 0px;
+  visibility: hidden;
+}
+
+.carousel-item:hover > .carousel-caption {
+  visibility: visible;
+}
+
+/* -------- END CAROUSEL STUFF -------- */
+
+
+
+
+/* -------- START RESPONSIVE STUFF -------- */
+
+@media screen and (max-width: 1475px) {
+
+  .h3full {
+    display: none;
+  }
+
+  .h3shrink {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 767.5px) {
+
+  .h3full {
+    display: block;
+  }
+
+  .h3shrink {
+    display: none;
+  }
+
+}
+
+.flex-grow-1 {
+  margin-top: 15px;
+}
+
+/* -------- END RESPONSIVE STUFF -------- */
+
+
